@@ -1,12 +1,14 @@
 #include<stdio.h>
 int main()
 {
-    int a;
-    float c,d;
+    float r,circum,dia,area;
+    float pi=3.14;
     printf("Enter radius of the circle :");
-    scanf("%d",&a);
-    d=2*a;
-    c=2*3.14*a;
-    printf("diameter of circle : %f\n",d);
-    printf("circumference of circle : %f\n",c);
+    scanf("%f",&r);
+    dia=2*r;
+    circum=2*pi*r;
+    area=pi*r*r;
+    printf("diameter of circle : %f\n",dia);
+    printf("circumference of circle : %f\n",circum);
+    printf("area of circle : %f\n",area);
 }
