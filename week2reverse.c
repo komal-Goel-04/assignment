@@ -36,13 +36,13 @@ int main()
         arr3[i]=arr2[j];
         j++;
     }
-    printf("before merging and reversing : ");
+    printf("before reversing : ");
     for(int i=0;i<size1+size2;i++)
     {
         printf("%d ",arr3[i]);
     }
     printf("\n");
-    printf("after merging and reversing : ");
+    printf("after reversing : ");
     //printf("\n");
     for(int i=size1+size2-1;i>=0;i--)
     {
