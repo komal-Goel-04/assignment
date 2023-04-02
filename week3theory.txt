@@ -1,0 +1,26 @@
+5-a-->
+char ****k --> here k is a pointer to pointer to pointer to pointer to char.
+
+5-b-->
+k=6
+
+6-->
+in c program structure members can't be initialised at the time of declaration
+
+
+7-->
+A c structure is always 128 bytes.Generally size of a c structure is calculated manually by adding 
+the size of each member field or we can directly use sizeof() operator to calculate its size.
+for example
+struct data
+{
+    char name[20];
+    int age;
+    int weight;
+    int class;
+    int rollno;
+
+} s;
+the size of this structure : 36
+char datatype : 1 byte       int datatype : 4 byte
+so its 20 + 4 + 4 + 4 + 4 = 36;
